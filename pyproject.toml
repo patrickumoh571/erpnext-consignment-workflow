@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "consignment_portfolio"
+version = "0.2.0"
+description = "Installable Frappe/ERPNext portfolio app for a consignment outlet workflow"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+  {name = "Patrick Umoh", email = "patrickumoh571@gmail.com"}
+]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["consignment_portfolio*"]

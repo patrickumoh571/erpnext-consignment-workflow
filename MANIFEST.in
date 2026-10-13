@@ -1,0 +1,9 @@
+recursive-include consignment_portfolio *.py
+recursive-include consignment_portfolio *.js
+recursive-include consignment_portfolio *.json
+recursive-include consignment_portfolio *.txt
+recursive-include consignment_portfolio *.html
+recursive-include consignment_portfolio *.css
+include README.md
+include LICENSE
+include CHANGELOG.md
